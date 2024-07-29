@@ -36,7 +36,6 @@ Route::post('/','LoginController@authenticate');
 Route::get('/logout','LoginController@logout');
 
 
-
 Route::prefix('admin')->middleware('auth:admin')->group(function(){
     Route::get('/','AdminController@index');
     
