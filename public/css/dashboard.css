@@ -1,0 +1,68 @@
+
+#dashboard {
+    width:100%;
+}
+
+.boxes-column {
+    width: 50%;
+}
+
+.box {
+    border:1px solid #DDD;
+    padding: 15px;
+}
+
+.box-body {
+    overflow: hidden;
+}
+
+a.info-box {
+    font-size: 150%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% / 3 - 10px);
+    height: calc(100% / 2 - 7px);
+    padding: 15px;
+    justify-content:center;
+    color: #FFF;
+}
+
+.info-box span {
+    font-size: 200%;
+    
+}
+
+.bg-green {
+    background: Turquoise;
+}
+
+.bg-blue {
+    background: RoyalBlue;
+}
+
+.bg-yellow {
+    background: Gold;
+}
+
+.bg-red {
+    background: Red;
+}
+
+.bg-lightblue {
+    background: DeepSkyBlue;
+}
+
+.info-boxes {
+    display: flex;
+    flex-direction: row;
+    align-items:space-between;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap:wrap;
+    height:100%;
+}
+
+.border {
+    border: 1px solid #CCC;
+}
